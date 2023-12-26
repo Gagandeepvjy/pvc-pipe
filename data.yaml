@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Defective', 'L Joint', 'T Joint']
+
+roboflow:
+  workspace: esha-gupta-jfldf
+  project: pvc-pipe-defect
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/esha-gupta-jfldf/pvc-pipe-defect/dataset/2
